@@ -1,0 +1,10 @@
+<div>
+  <a href="/">Home</a>
+  <% if (loggedUser) { %>
+    Welcome back <a href="/users/<%=loggedUser._id%>"><%= loggedUser.name %></a>!
+    <a href="/logout">Logout</a>
+  <% } else { %>
+    <a href="/login">Login</a>
+    <a href="/register">Sign up</a>
+  <% } %>
+</div>

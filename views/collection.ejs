@@ -1,0 +1,26 @@
+<%- include("partials/header") %>
+<%- include("partials/navbar", {user: user}) %>
+
+<h3>Posts Collection</h3>
+<a href="/posts/new">Create a new post!</a>
+<ul>
+  <% posts.forEach(post => { %>
+    <li>
+      <h4><strong>Title: </strong><%= post.title %></h4>
+      <div>
+        <strong>Author: </strong>
+        <span><a href="/users/<%=post.author._id%>"><%= post.author.name %></a></span> - <span><%= post.editedTime[post.editedTime.length-1] %></span>
+      </div>
+      <img src="<%= post.image %>" />
+      <div>
+        <strong>Description: </strong>
+        <%= post.description %>
+      </div>
+      <div>
+        <a href="/posts/<%=post._id%>">View More</a>
+      </div>
+    </li>
+  <% }); %>
+</ul>
+
+<%- include("partials/footer") %>

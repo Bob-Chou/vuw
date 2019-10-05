@@ -1,0 +1,29 @@
+<%- include("partials/header") %>
+<%- include("partials/navbar", {user: user}) %>
+
+<!-- post main profile -->
+<h3><strong>Title: </strong><%= post.title %></h3>
+<div>
+  <strong>Author: </strong>
+  <a href="/users/<%=post.author._id%>"><%= post.author.name %></a> - <%= post.editedTime[post.editedTime.length-1] %>
+</div>
+<img src="<%= post.image %>" />
+
+<!-- comments -->
+<h4>Comments</h4>
+<ul>
+  <% post.comments.forEach(comment => { %>
+    <li>
+      <div>
+        <i><%= comment.content %></i>
+      </div>
+      <div>
+        <a href="/users/<%=comment.author._id%>"><%= comment.author.name %></a> - <%= comment.editedTime[comment.editedTime.length-1] %>
+      </div>
+    </li>
+  <% }); %>
+</ul>
+<div>
+  <a href="/posts/<%=post._id%>/comments/new">Write a comment</a>
+</div>
+<%- include("partials/footer") %>
