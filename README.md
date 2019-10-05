@@ -55,13 +55,13 @@ node index.js
 
 ## Demo
 Home page without login
-<a href="https://ibb.co/JQJr7F6"><img src="https://i.ibb.co/zJvPRH9/Wechat-IMG93.png" alt="Fail to get image" border="0"></a>
+<div><a href="https://ibb.co/JQJr7F6"><img src="https://i.ibb.co/zJvPRH9/Wechat-IMG93.png" width=300 alt="Fail to get image" style="border-width:2px;border-style:solid;"></a></div>
 
 Home page with login (greeting appears)
-<a href="https://ibb.co/Jq1Q4GK"><img src="https://i.ibb.co/nBGCvYb/We-Chat27839c641aa99e08f6b3034f9c40b8c0.png" alt="Fail to get image" border="0"></a>
+<div><a href="https://ibb.co/Jq1Q4GK"><img src="https://i.ibb.co/nBGCvYb/We-Chat27839c641aa99e08f6b3034f9c40b8c0.png" width=300 alt="Fail to get image" style="border-width:2px;border-style:solid;"></a></div>
 
 Browsing posts page
-<a href="https://ibb.co/CHG4Dgr"><img src="https://i.ibb.co/FDTcC2P/127-0-0-1-1234-posts.png" alt="127-0-0-1-1234-posts" border="0"></a>
+<div><a href="https://ibb.co/CHG4Dgr"><img src="https://i.ibb.co/FDTcC2P/127-0-0-1-1234-posts.png" width=800 alt="127-0-0-1-1234-posts" style="border-width:2px;border-style:solid;"></a></div>
 
 Post detail page
-<a href="https://ibb.co/HLcpMYW"><img src="https://i.ibb.co/qLHF49t/127-0-0-1-1234-posts-5d90498639b34a864e74f496.png" alt="127-0-0-1-1234-posts-5d90498639b34a864e74f496" border="0"></a>
+<div><a href="https://ibb.co/HLcpMYW"><img src="https://i.ibb.co/qLHF49t/127-0-0-1-1234-posts-5d90498639b34a864e74f496.png" width=300 alt="127-0-0-1-1234-posts-5d90498639b34a864e74f496" style="border-width:2px;border-style:solid;"></a></div>
